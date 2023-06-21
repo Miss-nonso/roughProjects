@@ -1,0 +1,579 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Segoe UI Historic", "Segoe UI", Helvetica, Arial, sans-serif;
+}
+small {
+  color: #6a6c70;
+}
+.left-hr {
+  width: 250px;
+}
+
+.center-hr {
+  width: 95%;
+  font-weight: lighter;
+}
+
+.container {
+  background-color: #f0f2f5;
+  display: flex;
+  flex-direction: column;
+  width: 100vw;
+  height: 100vh;
+  gap: 20px;
+}
+.topContainer {
+  display: flex;
+  height: 35px;
+  width: 100%;
+  background-color: #ffffff;
+  align-items: center;
+  padding: 10px;
+  justify-content: space-between;
+  box-shadow: 0 0 1px 0 rgba(0, 0, 0, 0.2), 0 1px 1px 0 rgba(0, 0, 0, 0.19);
+}
+.facebookText {
+  padding: 10px;
+  color: #1877f2;
+  font-weight: bolder;
+  font-size: 15px;
+  font-family: Arial, Helvetica, sans-serif;
+  letter-spacing: -1px;
+}
+
+.searchFacebook {
+  width: 520px;
+  border: none;
+  background-color: #f0f2f5;
+  border-radius: 15px;
+  height: 30px;
+  padding: 5px;
+}
+::placeholder {
+  font-size: 14px;
+  padding: 5px;
+}
+.rightIcons {
+  display: flex;
+  width: 150px;
+  height: 100px;
+  align-items: center;
+  justify-content: space-between;
+  gap: 15px;
+}
+
+.messageIcon {
+  height: 40px;
+  width: 90px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #e4e6eb;
+  border-radius: 100px;
+}
+.notificationIcon {
+  height: 40px;
+  width: 90px;
+  background-color: #e4e6eb;
+  border-radius: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.profileIcon {
+  height: 40px;
+  width: 90px;
+  background-color: #e4e6eb;
+  border-radius: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #bec0c4;
+}
+
+.bodyContainer {
+  display: flex;
+  justify-content: space-between;
+  gap: 50px;
+  background-color: #f0f2f5;
+  height: 100%;
+  width: 100%;
+}
+
+.leftDiv {
+  background-color: #f0f2f5;
+  width: 60%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+
+  padding: 5px;
+  margin-left: 10px;
+  font-size: 16px;
+}
+
+.bigLeftDiv {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+  font-weight: bold;
+  font-size: 15px;
+  gap: 10px;
+}
+.homeAndProfileDetails {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 25px;
+}
+.homeAndIcon {
+  display: flex;
+  gap: 10px;
+}
+.profilePhotoAndName {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 10px;
+}
+.profilePhoto {
+  width: 25px;
+  height: 25px;
+  border-radius: 100px;
+  background-color: #c9ccd1;
+  border: 1px solid #bec1c6;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.watchAndOthers {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 20px;
+}
+.watchAndIcon {
+  display: flex;
+  gap: 10px;
+}
+.friendsAndIcon {
+  display: flex;
+  gap: 10px;
+}
+.marketplaceAndIcon {
+  display: flex;
+  gap: 10px;
+}
+.gamingAndIcon {
+  display: flex;
+  gap: 10px;
+}
+.seeAllAndIcon {
+  display: flex;
+  gap: 10px;
+}
+.seeAllIcon {
+  width: 27px;
+  height: 27px;
+  border-radius: 100px;
+  background-color: #c9ccd1;
+  border: 1px solid #bec1c6;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.seeAllGroupsAndShoutcuts {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 80px;
+  gap: 10px;
+}
+.seeAllGroups {
+  display: flex;
+  gap: 10px;
+}
+.seeAllGroupsIcon {
+  width: 30px;
+  height: 30px;
+  border-radius: 100px;
+  background-color: #c9ccd1;
+  border: 1px solid #bec1c6;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.seAllShortcuts {
+  display: flex;
+  gap: 10px;
+}
+.seeAllShortcutsIcon {
+  width: 30px;
+  height: 30px;
+  border-radius: 100px;
+  background-color: #c9ccd1;
+  border: 1px solid #bec1c6;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.smallLeftDiv {
+  font-size: 15px;
+}
+.centerDiv {
+  background-color: #f0f2f5;
+  padding: 3px 20px 20px 10px;
+  display: flex;
+  flex-direction: column;
+  border: none;
+  gap: 20px;
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+}
+.storiesCreationDiv {
+  background-color: #ffffff;
+  display: flex;
+  width: 100%;
+  height: 100%;
+  padding: 5px;
+  flex-direction: column;
+  border-radius: 10px;
+  box-shadow: 0 0 1px 0 rgba(0, 0, 0, 0.2), 0 1px 1px 0 rgba(0, 0, 0, 0.19);
+}
+
+.storiesAndReels {
+  display: flex;
+  height: 60px;
+  width: 100%;
+  justify-content: space-around;
+  align-items: center;
+  border-bottom: 1px solid #bec1c6;
+  color: #65676b;
+  font-weight: bold;
+}
+
+.storiesAndIcon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+}
+.storiesAndIcon:hover {
+  border-bottom: 2px solid #1877f2;
+}
+
+.innerStoriesAndIcon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+  gap: 10px;
+}
+
+.innerStoriesAndIcon:hover {
+  background-color: #f0f2f5;
+  cursor: pointer;
+  color: #1877f2;
+}
+
+.reelsAndIcon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  width: 100%;
+}
+.reelsAndIcon:hover {
+  border-bottom: 2px solid #1877f2;
+  cursor: pointer;
+  color: #1877f2;
+}
+.innerReelsAndIcon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+  gap: 10px;
+}
+.innerReelsAndIcon:hover {
+  background-color: #f0f2f5;
+  cursor: pointer;
+}
+.storiesAndTexts {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  gap: 15px;
+  padding: 10px;
+  align-items: center;
+}
+.storyImageTextAndPlusIcon {
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+  height: 95%;
+  justify-content: flex-end;
+  align-items: center;
+  background-color: white;
+  border-radius: 20px;
+  box-shadow: 0 0 1px 0 rgba(0, 0, 0, 0.2), 0 1px 1px 0 rgba(0, 0, 0, 0.19);
+}
+.imageIcon {
+  width: 100%;
+  height: 100%;
+  display: flex;
+}
+.imageIcon img {
+  width: 100%;
+  border-radius: 15px 15px 0 0;
+}
+.plusIcon {
+  position: absolute;
+  margin-bottom: 30px;
+  width: 50px;
+  height: 50px;
+  border-radius: 100px;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.createStoryText {
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  width: 100%;
+  height: 60px;
+  font-size: 13px;
+  font-weight: bold;
+  border-radius: 0 0 10px 10px;
+  padding-bottom: 5px;
+}
+.storytextsAndIcons {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  gap: 20px;
+  padding: 5px;
+  font-size: 13px;
+}
+.shareEveryday {
+  display: flex;
+  gap: 10px;
+}
+.storiesDisappear {
+  display: flex;
+  gap: 10px;
+}
+.repliesAndReactions {
+  display: flex;
+  gap: 10px;
+}
+.nextSign {
+  background-color: #ffffff;
+  width: 45px;
+  height: 45px;
+  border-radius: 100px;
+  margin-left: 420px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  box-shadow: 0 0 1px 0 rgba(0, 0, 0, 0.2), 0 1px 1px 0 rgba(0, 0, 0, 0.19);
+}
+.createPostDiv {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  height: 40%;
+  width: 100%;
+  padding: 10px;
+  border-radius: 10px;
+}
+.postCreator {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+  padding: 10px;
+  gap: 10px;
+}
+.postCreatoricon {
+  height: 45px;
+  width: 50px;
+  background-color: #e4e6eb;
+  border-radius: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #bec0c4;
+}
+.postCreatorInput {
+  width: 100%;
+  border: none;
+  background-color: #f0f2f5;
+  border-radius: 15px;
+  height: 30px;
+  padding: 5px;
+}
+
+.livePhotoAndFeelingDiv {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  height: 100%;
+  color: #65737f;
+  font-size: 15px;
+  font-weight: bold;
+}
+.liveVideoDiv {
+  display: flex;
+  gap: 10px;
+}
+.photoVideoDiv {
+  display: flex;
+  gap: 10px;
+}
+.feelingActivityDiv {
+  display: flex;
+  gap: 10px;
+}
+
+.peopleSuggestionDiv {
+  display: flex;
+  flex-direction: column;
+  background-color: #ffffff;
+  padding: 5px;
+  font-size: 17px;
+  border-radius: 10px;
+  gap: 10px;
+  height: 20%;
+  width: 100%;
+}
+.peopleYouMayKnowAndDots {
+  display: flex;
+  justify-content: space-between;
+}
+.suggestionImages {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+.rightDiv {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  padding: 0 30px 30px 30px;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 20px;
+}
+.sponsoredAndAdvertDiv {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 100%;
+}
+.sponsoredDiv {
+  width: 100%;
+  height: 30px;
+  font-size: 18px;
+  align-items: flex-start;
+  color: #6a6c70;
+  font-weight: bold;
+}
+
+.advertsDiv {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 250px;
+  gap: 10px;
+  align-items: center;
+  justify-content: space-between;
+}
+.firstAdvert {
+  display: flex;
+  width: 100%;
+  height: 50%;
+  justify-content: flex-start;
+  border-radius: 10px;
+  gap: 15px;
+  padding-right: 5px;
+}
+
+.advertsDiv h5 {
+  font-size: 15px;
+}
+.advertsDiv p {
+  font-size: 13px;
+  font-weight: lighter;
+}
+.firstAdvertImage {
+  height: 100%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+.firstAdvertImage img {
+  width: 100%;
+  border-radius: 10px;
+  height: 80%;
+  justify-content: flex-start;
+}
+.firstAdvertText {
+  display: flex;
+  align-items: center;
+  width: 40%;
+}
+
+.secondAdvert {
+  display: flex;
+  width: 100%;
+  height: 50%;
+  justify-content: flex-start;
+  border-radius: 10px;
+  gap: 15px;
+  padding-right: 5px;
+}
+.secondAdvertImage {
+  height: 100%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+.secondAdvertImage img {
+  width: 100%;
+  border-radius: 10px;
+  height: 80%;
+  justify-content: flex-start;
+}
+.secondAdvertText {
+  display: flex;
+  align-items: center;
+  width: 40%;
+}
+.groupConvoDiv {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  height: 100%;
+  width: 100%;
+  font-weight: bold;
+  font-size: 15px;
+  color: #121212;
+}
+.createNewGroupDiv {
+  display: flex;
+  gap: 10px;
+}
